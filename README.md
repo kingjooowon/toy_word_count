@@ -35,3 +35,6 @@ python : 2
 
 1. 파일 경로 문제를 해결하기 위해 현재 파일 위치 기준으로 txt파일을 읽도록 구현했습니다.
 2. Git과 Github 사용 연습을 위한 토이 프로젝트입니다.
+
+# Status
+- completed basic version
