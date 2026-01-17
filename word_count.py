@@ -1,4 +1,5 @@
 import os
+import string
 
 # 1. 이 파일이 있는 폴더를 기준으로 sample.txt 찾기
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -13,6 +14,7 @@ words = text.lower().split()
 word_count = {}
 
 for word in words:
+    word = word.strip(string.punctuation)
     if word in word_count:
         word_count[word] += 1
     else:
