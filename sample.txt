@@ -1,3 +1,3 @@
-Hello world
+Hello, world
 This is my first toy project
-Hello AI
+Hello. AI
